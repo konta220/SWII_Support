@@ -5,14 +5,18 @@ SWII_Support
 
 拡張BNFから大まかなコードを生成するソフト．  
 
-以下の問題を解決するために作成
+ソフトだけを使いたいかたは[ココ][BNFSupport]からダウンロード．
+
+[BNFSupport]:https://raw.githubusercontent.com/konta220/SWII_Support/master/BNFSupport.exe
+
+###以下の問題を解決するために作成
 
 * 今のトークンから次のトークンってどうだったっけ?
 * 構文定義のミスを減らすため
 * コーディング部分の一貫性
 
+###2014年度版
 
-###2014年度版  
 意図的にコード生成部にバグ(First集合回り)を残した永遠にベータ版です．
 
 本ソフトを改良して使って頂けると幸いです．  
@@ -84,4 +88,6 @@ SWII_Support
 「EBNF - Wikipedia」 http://ja.wikipedia.org/wiki/EBNF
 
 [EBNF]:http://ja.wikipedia.org/wiki/EBNF
+
+
 
