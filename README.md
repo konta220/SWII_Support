@@ -5,7 +5,7 @@ SWII_Support
 
 拡張BNFから大まかなコードを生成するソフト．  
 
-ソフトだけを使いたいかたは[ココ][BNFSupport]からダウンロード．
+ソフトだけを使いたいかたは[ココ][BNFSupport]からダウンロード．．
 
 [BNFSupport]:https://raw.githubusercontent.com/konta220/SWII_Support/master/BNFSupport.exe
 
