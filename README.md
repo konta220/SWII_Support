@@ -30,8 +30,8 @@ Visual C#で作成したため，
 
 
 ###確認済みOS
-* Windows 7 SP1
-* Windows 8.1 Pro
+* Windows 7 SP1 (32bit)
+* Windows 8.1 Pro (64bit)
 
 ## デモ
 
