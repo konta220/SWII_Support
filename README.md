@@ -9,6 +9,7 @@ SWII_Support
 
 [BNFSupport]:https://raw.githubusercontent.com/konta220/SWII_Support/master/BNFSupport.exe
 
+
 ###以下の問題を解決するために作成
 
 * 今のトークンから次のトークンってどうだったっけ?
@@ -23,6 +24,15 @@ SWII_Support
 
 「※この内容は個人の独断であり，所属する組織の公式内容ではありません」
 
+##動作環境
+Visual C#で作成したため，
+[.NET Framework 4](http://www.microsoft.com/ja-jp/net/netfx4/download.aspx) が必要となります．
+
+
+###確認済みOS
+* Windows 7 SP1
+* Windows 8.1 Pro
+
 ## デモ
 
 何はともあれ，見た方が早いのでスクリーンショットを示します．
@@ -33,7 +43,7 @@ SWII_Support
 確認したい拡張BNF文を選んで「正規表現で解説」をクリックすると，「[Regulex][]」で図解してもらえる．
 ![BNFの確認画面](https://raw.githubusercontent.com/konta220/SWII_Support/master/Ohter/screen2.PNG)
 
-「大雑把にコード生成」では，以下の画面に同意していたける方のみ利用可.
+「大雑把にコード生成」では，以下の画面に同意していたける方のみ利用可.  
 ![BNF記述画面](https://raw.githubusercontent.com/konta220/SWII_Support/master/Ohter/screen3.PNG)
 
 ここから先の利用方法は試してみて．
