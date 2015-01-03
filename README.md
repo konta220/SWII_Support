@@ -81,6 +81,8 @@ Visual C#で作成したため，
 上記の"*note*"は以下のように表現できます．
 
     例
+     happy.
+     very happy.
      Today is happy.
      Today is verry happy.
      Yesterday is happy.
