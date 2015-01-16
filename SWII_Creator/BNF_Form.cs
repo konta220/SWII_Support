@@ -87,5 +87,10 @@ namespace SWII_Creator
             BNF_Create frm = new BNF_Create(strRawData);
             frm.Show();
         }
+
+        private void BNF_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

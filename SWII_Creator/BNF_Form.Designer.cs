@@ -44,11 +44,11 @@
             // createButton
             // 
             this.createButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.createButton.Location = new System.Drawing.Point(415, 169);
+            this.createButton.Location = new System.Drawing.Point(415, 188);
             this.createButton.Name = "createButton";
             this.createButton.Size = new System.Drawing.Size(125, 21);
             this.createButton.TabIndex = 1;
-            this.createButton.Text = "BNF確認";
+            this.createButton.Text = "BNF確認 (&A)";
             this.createButton.UseVisualStyleBackColor = true;
             this.createButton.Click += new System.EventHandler(this.createButton_Click);
             // 
@@ -64,7 +64,7 @@
             this.eBNF_ResultTextBox.Name = "eBNF_ResultTextBox";
             this.eBNF_ResultTextBox.ReadOnly = true;
             this.eBNF_ResultTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.eBNF_ResultTextBox.Size = new System.Drawing.Size(534, 145);
+            this.eBNF_ResultTextBox.Size = new System.Drawing.Size(534, 164);
             this.eBNF_ResultTextBox.TabIndex = 3;
             // 
             // groupResultBox
@@ -75,9 +75,9 @@
             this.groupResultBox.Controls.Add(this.eBNF_ResultTextBox);
             this.groupResultBox.Controls.Add(this.createButton);
             this.groupResultBox.Enabled = false;
-            this.groupResultBox.Location = new System.Drawing.Point(15, 234);
+            this.groupResultBox.Location = new System.Drawing.Point(12, 234);
             this.groupResultBox.Name = "groupResultBox";
-            this.groupResultBox.Size = new System.Drawing.Size(557, 196);
+            this.groupResultBox.Size = new System.Drawing.Size(557, 215);
             this.groupResultBox.TabIndex = 6;
             this.groupResultBox.TabStop = false;
             this.groupResultBox.Text = "構文解析結果(簡易)";
@@ -100,7 +100,7 @@
             this.refreshButton.Name = "refreshButton";
             this.refreshButton.Size = new System.Drawing.Size(125, 21);
             this.refreshButton.TabIndex = 5;
-            this.refreshButton.Text = "すべて消去";
+            this.refreshButton.Text = "すべて消去 (&C)";
             this.refreshButton.UseVisualStyleBackColor = true;
             this.refreshButton.Click += new System.EventHandler(this.refreshButton_Click);
             // 
@@ -122,11 +122,11 @@
             // coronButton
             // 
             this.coronButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.coronButton.Location = new System.Drawing.Point(287, 191);
+            this.coronButton.Location = new System.Drawing.Point(264, 191);
             this.coronButton.Name = "coronButton";
-            this.coronButton.Size = new System.Drawing.Size(125, 21);
+            this.coronButton.Size = new System.Drawing.Size(148, 21);
             this.coronButton.TabIndex = 6;
-            this.coronButton.Text = "『 ::= (定義)』を入力";
+            this.coronButton.Text = "『 ::= (定義)』を入力 (&E)";
             this.coronButton.UseVisualStyleBackColor = true;
             this.coronButton.Click += new System.EventHandler(this.coronButton_Click);
             // 
@@ -141,7 +141,7 @@
             this.eBNF_TextBox.Multiline = true;
             this.eBNF_TextBox.Name = "eBNF_TextBox";
             this.eBNF_TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.eBNF_TextBox.Size = new System.Drawing.Size(534, 167);
+            this.eBNF_TextBox.Size = new System.Drawing.Size(534, 163);
             this.eBNF_TextBox.TabIndex = 3;
             this.eBNF_TextBox.TextChanged += new System.EventHandler(this.eBNF_TextBox_TextChanged);
             // 
@@ -149,13 +149,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 441);
+            this.ClientSize = new System.Drawing.Size(584, 461);
             this.Controls.Add(this.groupEditBox);
             this.Controls.Add(this.groupResultBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(600, 480);
+            this.MinimumSize = new System.Drawing.Size(600, 500);
             this.Name = "BNF_Form";
             this.Text = "BNF記述";
+            this.Load += new System.EventHandler(this.BNF_Form_Load);
             this.groupResultBox.ResumeLayout(false);
             this.groupResultBox.PerformLayout();
             this.groupEditBox.ResumeLayout(false);

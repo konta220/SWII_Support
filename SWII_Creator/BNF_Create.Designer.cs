@@ -48,22 +48,22 @@
             // codeGenbutton
             // 
             this.codeGenbutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.codeGenbutton.Location = new System.Drawing.Point(364, 296);
+            this.codeGenbutton.Location = new System.Drawing.Point(342, 296);
             this.codeGenbutton.Name = "codeGenbutton";
-            this.codeGenbutton.Size = new System.Drawing.Size(117, 23);
+            this.codeGenbutton.Size = new System.Drawing.Size(139, 23);
             this.codeGenbutton.TabIndex = 1;
-            this.codeGenbutton.Text = "大雑把にコード生成";
+            this.codeGenbutton.Text = "大雑把にコード生成(&G)";
             this.codeGenbutton.UseVisualStyleBackColor = true;
             this.codeGenbutton.Click += new System.EventHandler(this.codeGenbutton_Click);
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(262, 296);
+            this.button1.Location = new System.Drawing.Point(211, 296);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 23);
+            this.button1.Size = new System.Drawing.Size(125, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "正規表現で解説";
+            this.button1.Text = "正規表現で解説(&A)";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

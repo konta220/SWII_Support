@@ -55,8 +55,10 @@ namespace SWII_Creator
             if (mBNFItem.Count == 0) {
                 codeGenbutton.Enabled = false;
                 button1.Enabled = false;
+            }else{
+                listViewBNF.Items[0].Selected = true;
             }
-        }
+    }
 
 
         private void codeGenbutton_Click(object sender, EventArgs e)
